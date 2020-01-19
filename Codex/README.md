@@ -2,4 +2,5 @@
 This is my own created plateform for starting online coding exam in my college ,<b>(Motihari College of Engineering).</b> I had given this platform
 the name"codex". 
 <h2>Guidlines for using it in </h2>
-You are free to use 
+You are free to use it. But you had made some changes and preparation before using it.
+
