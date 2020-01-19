@@ -1,0 +1,45 @@
+.questions{width:80%;
+		   height:100%;
+		   background-color:#FAEEF8;
+		   padding:20px;
+		   font-size:20px;
+		   display:none;
+		   float:left;
+		   }
+.navigate button{display:inline-block;}
+@media screen and(min-width:900px){
+	.questions{width:100%;}
+	}
+	
+.next{margin-left:90%;
+      float:left;}
+.previous{margin-left:30px;
+		  float:left;}
+.number{width:205px;
+        height:100px;
+        border:0.5px solid black;
+		float:right;
+		padding:1px;}
+.save,.previous,.next,.end{border-radius:25px;
+					 font-size:20px;
+					font-weight:bold;}
+.save{margin-left:300px;
+	  background-color:#FC573C;}
+.save:hover{background-color:#08F73A;
+            font-size:30px;}
+#count{padding:50px;
+       font-size:40px;
+	   font-weight:bold;}
+.time{padding:20px;
+      font-weight:bold;
+	  font-size:20px;}
+.update{margin-left:100px;}
+
+								/* Administrator Page*/
+#logout{
+        margin-left:50%;
+	border-radius:25px;
+background-color:#08F73A;
+font-weight:bold;
+font-size:20px;}	
+#logout:hover{background-color:red;}	

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Codex</title>
+<meta name="viewport" content="device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+<meta name="keywords" content="#Codex,coding plateform,MCE Motihari">
+<meta name="description" content="Codex is a coding platform for Motihari college of Engineering(MCE),Motihari 
+students.The motive of this plateform is to develop coding interest in stuents of MCE and 
+increase their coding level."
+<meta name="authors" content="developed by:Atul Kumar,Managed by:Abhishek Ranjan">
+<link rel="stylesheet" type="text/css"href="question.css">
+<body>
+
+<form method="POST" action="administrator.php">
+<input type="text" name="username" size="30" placeholder="Administrator Username"><p>
+<input type="text" name="password" size="30" placeholder="Administrator Password"><p>
+<input type="submit" name="submit" value="Administrator Login">
