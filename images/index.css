@@ -1,0 +1,56 @@
+h1{
+	font-family: Georgia, serif;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 0.4px;
+color: #38FF13;
+font-weight: 700px;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: capitalize;
+text-shadow: 2px 3px 2px #474755, -20px -20px 1px rgba(206,89,55,0);
+}
+pre{
+	margin-left: 700px;
+	margin-top: 1px
+}
+h2{
+
+	margin-left: 30px;
+}
+fieldset{
+
+	font-size: 125%;
+	background-color: #f4f4f4;
+	margin-top: 3%;
+	line-height: 1.6em;
+	width:95%;
+}
+body
+{
+	background-color: #ccf2ff
+}
+.flex-container{
+	display:flex;
+}
+.fieldset-2{
+	margin-left: 2px;
+	margin-top: 1%;
+	width:25%;
+}
+font{
+	font-family: Bookman Old Style ;
+}
+img{
+	margin-top: 2%;
+	margin-left: 10%;
+	width:80%;
+}
+.header{
+	margin-left: 48%;
+}
+.login{border:2px solid black;
+       padding:20px;
+	   padding-left:30px;}
+
