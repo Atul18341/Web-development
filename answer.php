@@ -9,5 +9,5 @@ $Table=$_SESSION['Table'];
 $Fullname=$_SESSION['fullname'];
 $query=mysqli_query($dbc,"UPDATE $Table SET response_$Fullname='$Answer' WHERE QUESTION_NO='$Id'");
 if($query){
-    echo"<h2>Answer Saved Successfully.</h2>";
+    echo"<h2><i>Your Answer is successfully saved.Thankyou for your response.</i></h2>";
 }
