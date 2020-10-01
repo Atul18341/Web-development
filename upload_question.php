@@ -5,11 +5,11 @@
 <meta name="viewport"content="width=device-width,initial-scale=1">
 </head>
 <body>
-<h1 align="center"><font face="lucida calligraphy" color="red">Question Uploading Portal</font></h1>
+  <h1 align="center"><font face="lucida calligraphy" color="red"><i> Question Uploading Portal </i></font></h1>
 
 <form action="upload_question.php" method="post" enctype="multipart/form-data">
 <select name="testname">
-  <option value="#">Select Test</option>
+  <option value="#">Please Select Test</option>
 <?php
 include("config.php");
 $query=mysqli_query($dbc,"SELECT * FROM administrator_access");
@@ -53,7 +53,7 @@ if($query) {
 echo "Question Successfully Inserted/Uploaded.";
 }
 else{
-    echo"Question Insertion Failed.";
+    echo"Question Insertion Failed.Please try again later.";
 }
 }
 ?>
